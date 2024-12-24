@@ -9,29 +9,29 @@
 
 ### 1. **Подготовка окружения на машине А (192.168.1.197)**
 
-1. Убедитесь, что установлен Docker и Docker Compose:
+1. Убеждаемся, что установлен Docker и Docker Compose:
     ```bash
     sudo apt update
     sudo apt install docker.io docker-compose -y
     ```
-2. Проверьте версии Docker:
+2. Проверка версии Docker:
     ```bash
     docker --version
     docker-compose --version
     ```
-3. Создайте папку для проекта и переместитесь в неё:
+3. Создаем папку для проекта и переместитесь в неё:
     ```bash
     mkdir cassandra-cluster && cd cassandra-cluster
     ```
-4. Создайте файл `docker-compose.yml` с содержимым из данного проекта.
+4. Создаем файл `docker-compose.yml` с содержимым из файла docker-compose.yml.
 
 ### 2. **Запуск кластера Cassandra**
 
-1. Поднимите кластер:
+1. Поднимаем кластер:
     ```bash
     docker-compose up -d
     ```
-2. Проверьте статус контейнеров:
+2. Проверяем статус контейнеров:
     ```bash
     docker ps
     ```

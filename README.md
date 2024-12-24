@@ -54,8 +54,10 @@
 ---
 
 ## Проверка результатов
+![cassandra1](https://github.com/user-attachments/assets/f0ada3ec-32ac-4812-86b8-57f8bda67735)
+![cassandra2](https://github.com/user-attachments/assets/c50c681d-c7ae-4b3d-a238-504bdb428404)
+![cassandra3](https://github.com/user-attachments/assets/0b5a2ed1-9799-44cd-b468-221553db840f)
 
-- **Скриншот**: Вставьте скриншот результата подключения через `cqlsh` и команды `nodetool status`, демонстрирующий работу кластера.
 
 ---
 
